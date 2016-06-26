@@ -1,0 +1,5 @@
+pollutantmean<- function(dir,pollutant,id=1:332){
+        setwd("F:/R_coursera")
+        x<- read.csv(dir)
+        mean(x(("pollutant")))
+}
